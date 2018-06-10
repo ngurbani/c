@@ -1,0 +1,35 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+	int i;
+	i = 1;
+	//i is counter
+	while (i <= 10)
+		//test expression
+	{
+		//loop body
+		printf("Hello\n");
+		i++;
+	}
+	return 0;
+}
+
+
+_________________
+1.test expression
+2.if true, body executed.
+3.then again test expression, until false
+
+_______________________________
+
+NOTES:
+https://www.programiz.com/c-programming/c-do-while-loops
+https://www.codingunit.com/c-tutorial-for-loop-while-loop-break-and-continue
+
+
+
+
